@@ -1,0 +1,29 @@
+{
+  "name": "lodown-pepperoncini",
+  "version": "1.0.1",
+  "description": "First npm library",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha -- test/ -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pepperoncini/lodown.git"
+  },
+  "author": "quinn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pepperoncini/lodown/issues"
+  },
+  "homepage": "https://github.com/Pepperoncini/lodown#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "i": "^0.3.6",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "sinon": "^7.2.2"
+  }
+}
